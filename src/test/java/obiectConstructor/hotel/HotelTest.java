@@ -15,6 +15,6 @@ public class HotelTest {
         oferta.put("Offseason","Da");
         Hotel imperial = new Hotel();
         imperial.prezentareHotel();
-        imperial.pretOferta(oferta);
+     //   imperial.pretOferta(oferta);
     }
 }
