@@ -26,6 +26,10 @@ public class Sportiv extends Persoana{
         System.out.println("Cate medalii a castigat sportivul? "+medalii);
     }
 
+    public void mananca(){
+        System.out.println("Sportivul mananca dupa antrenament.");
+    }
+
     public String getSport() {
         return sport;
     }
