@@ -1,6 +1,6 @@
 package oop_mostenire;
 
-public class Angajat extends Persoana {
+public class Angajat extends Persoana implements AngajatInterface {
 
     private String firma;
     private String pozitie;
@@ -76,6 +76,29 @@ public class Angajat extends Persoana {
 
     public void setExperienta(String experienta) {
         this.experienta = experienta;
+    }
+
+    @Override
+    public void ajungeLaTimpLaBirou() {
+        System.out.println("Angajatul trebuie sa ajunga la birou intre 8:00 si 17:00");
+    }
+
+    @Override
+    public void munceste() {
+        System.out.println("Angajatul trebuie sa munceasca in intervalul specificat");
+
+    }
+
+    @Override
+    public void nuAreAbsente() {
+        System.out.println("Nu are absente");
+
+    }
+
+    @Override
+    public void respectaConduita() {
+        System.out.println("Angajatul respecta conduita");
+
     }
 }
 

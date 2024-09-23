@@ -21,6 +21,11 @@ public class MostenireTest {
         angajat.marire("engineer");
         angajat.marire(10,"engineer");
 
+        angajat.ajungeLaTimpLaBirou();
+        angajat.respectaConduita();
+        angajat.nuAreAbsente();
+        angajat.munceste();
+
 
 //        System.out.println();
 //
@@ -30,9 +35,13 @@ public class MostenireTest {
 //
 //        System.out.println();
 //
-//        Student student = new Student("ion", "alina", 21,"feminin", "timisoara",
-//                "politehica", "it",3,true,true);
-//        student.infoStudent();
+        Student student = new Student("ion", "alina", 21,"feminin", "timisoara",
+                "politehica", "it",3,true,true);
+        student.infoStudent();
 
+        student.saNuAibaRestante();
+        student.mergeLaCursuri();
+        student.saStieSaCopieze();
+        student.trebuieSaStudieze();
     }
 }
