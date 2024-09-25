@@ -1,6 +1,6 @@
 package oop_mostenire;
 
-public class Sportiv extends Persoana{
+public class Sportiv extends Persoana implements SportivInterface {
 
     private String sport;
     private boolean sportEchipa;
@@ -68,5 +68,15 @@ public class Sportiv extends Persoana{
 
     public void setMedalii(int medalii) {
         this.medalii = medalii;
+    }
+
+    @Override
+    public void mergeLaAntrenament() {
+        System.out.println("Sportivul trebuie sa mearga la antrenament.");
+    }
+
+    @Override
+    public void respectaProgramulDeAntrenament() {
+        System.out.println("Sportivul trebuie sa respecte programul de antrenament.");
     }
 }

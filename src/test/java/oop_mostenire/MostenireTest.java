@@ -26,7 +26,7 @@ public class MostenireTest {
         angajat.nuAreAbsente();
         angajat.munceste();
 
-
+        System.out.println("");
 //        System.out.println();
 //
 //        Sportiv sportiv = new Sportiv("ionescu", "ion",10,"masculin", "timisoara",
@@ -43,5 +43,14 @@ public class MostenireTest {
         student.mergeLaCursuri();
         student.saStieSaCopieze();
         student.trebuieSaStudieze();
+
+        System.out.println("");
+
+        Sportiv sportiv = new Sportiv("pop","alex",17,"m","oradea","baschet",
+                true, 2, true,3);
+        sportiv.infoSportiv();
+
+        sportiv.mergeLaAntrenament();
+        sportiv.respectaProgramulDeAntrenament();
     }
 }
