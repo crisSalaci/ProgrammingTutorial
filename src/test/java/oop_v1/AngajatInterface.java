@@ -1,4 +1,4 @@
-package oop_mostenire;
+package oop_v1;
 
 public interface AngajatInterface {
     //abstractizarea = conceptul prin care putem defini comportamentul unei clase

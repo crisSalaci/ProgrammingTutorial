@@ -1,4 +1,4 @@
-package oop_mostenire;
+package oop_v1;
 
 import org.testng.annotations.Test;
 
